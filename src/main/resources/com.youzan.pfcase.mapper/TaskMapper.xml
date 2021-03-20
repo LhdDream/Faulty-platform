@@ -102,7 +102,7 @@
     <!--</delete>-->
 
     <insert id="insertRank" parameterType="Rank">
-        INSERT INTO rank
+        INSERT INTO rak
         (taskname, owner, score, reason)
         VALUES
         (#{taskname}, #{owner}, #{score}, #{reason})
@@ -111,7 +111,7 @@
     <select id="getTotalScores" resultType="hashmap">
         SELECT
         owner, SUM(score) as totalscores, COUNT(owner) as exetimes
-        FROM rank
+        FROM rak
         GROUP BY owner
         ORDER BY totalscores DESC, exetimes
     </select>
