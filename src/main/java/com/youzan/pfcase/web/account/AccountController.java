@@ -17,9 +17,7 @@ import javax.validation.groups.Default;
 
 
 
-/**
- * Created by sunjun on 16/8/8.
- */
+
 @Controller
 @RequestMapping("account")
 public class AccountController {

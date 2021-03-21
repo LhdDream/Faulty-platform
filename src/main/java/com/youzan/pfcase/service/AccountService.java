@@ -9,9 +9,7 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.inject.Inject;
 import java.util.List;
 
-/**
- * Created by sunjun on 16/8/2.
- */
+
 @Service
 public class AccountService {
 

@@ -68,7 +68,7 @@ create table taskcase (
     key `idx_taskid_casescore`(`taskid`, `casescore`)
 )ENGINE=INNODB DEFAULT CHARSET=utf8 COMMENT='任务用例关系表';
 
-create table rank (
+create table rak (
     rankid int not null auto_increment,
     taskname varchar(25) not null comment '任务名称',
     owner varchar(25) not null comment '任务执行人',

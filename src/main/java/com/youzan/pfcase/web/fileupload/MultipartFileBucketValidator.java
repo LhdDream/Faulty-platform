@@ -6,9 +6,7 @@ import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
 import org.springframework.web.multipart.MultipartFile;
 
-/**
- * Created by sunjun on 16/9/28.
- */
+
 @Component
 public class MultipartFileBucketValidator implements Validator {
 

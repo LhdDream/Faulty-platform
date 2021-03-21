@@ -12,9 +12,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-/**
- * Created by sunjun on 16/8/16.
- */
 @Service
 public class TaskcaseService {
 

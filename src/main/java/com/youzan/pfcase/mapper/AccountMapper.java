@@ -7,9 +7,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-/**
- * Created by sunjun on 16/8/2.
- */
+
 @Repository
 public interface AccountMapper {
 

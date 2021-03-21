@@ -18,9 +18,7 @@ import javax.validation.Valid;
 import java.sql.Timestamp;
 import java.util.*;
 
-/**
- * Created by sunjun on 16/8/12.
- */
+
 @Controller
 @RequestMapping("task")
 public class TaskController {

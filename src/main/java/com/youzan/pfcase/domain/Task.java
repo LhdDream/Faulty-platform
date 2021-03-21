@@ -6,9 +6,7 @@ import javax.validation.constraints.Size;
 import java.io.Serializable;
 import java.util.Date;
 
-/**
- * Created by sunjun on 16/8/12.
- */
+
 public class Task implements Serializable {
 
     private static final long serialVersionUID = 4733800009305112630L;

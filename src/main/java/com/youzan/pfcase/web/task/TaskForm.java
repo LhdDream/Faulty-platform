@@ -5,9 +5,7 @@ import javax.validation.constraints.Size;
 import java.io.Serializable;
 import java.util.Date;
 
-/**
- * Created by sunjun on 16/8/12.
- */
+
 public class TaskForm {
 
     @NotNull

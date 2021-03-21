@@ -9,9 +9,6 @@ import org.springframework.transaction.annotation.Transactional;
 import java.sql.Timestamp;
 import java.util.List;
 
-/**
- * Created by sunjun on 16/8/12.
- */
 @Service
 public class CaselistService {
 

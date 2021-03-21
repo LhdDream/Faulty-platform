@@ -2,9 +2,7 @@ package com.youzan.pfcase.domain;
 
 import java.io.Serializable;
 
-/**
- * Created by sunjun on 16/8/12.
- */
+
 public class Taskcase implements Serializable {
 
     private static final long serialVersionUID = -7798973576203053896L;

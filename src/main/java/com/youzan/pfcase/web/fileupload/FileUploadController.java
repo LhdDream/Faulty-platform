@@ -17,9 +17,7 @@ import javax.validation.Valid;
 import java.io.IOException;
 import java.util.stream.Collectors;
 
-/**
- * Created by sunjun on 16/9/27.
- */
+
 @Controller
 @RequestMapping("fileupload")
 public class FileUploadController {

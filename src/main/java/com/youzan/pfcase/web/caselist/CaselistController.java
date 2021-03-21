@@ -19,9 +19,7 @@ import javax.validation.Valid;
 import java.sql.Timestamp;
 import java.util.Date;
 
-/**
- * Created by sunjun on 16/8/12.
- */
+
 @Controller
 @RequestMapping("caselist")
 public class CaselistController {

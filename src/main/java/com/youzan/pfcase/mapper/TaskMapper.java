@@ -9,9 +9,7 @@ import java.sql.Timestamp;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by sunjun on 16/8/12.
- */
+
 @Repository
 public interface TaskMapper {
 
